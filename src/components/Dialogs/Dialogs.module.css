@@ -1,0 +1,32 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  padding: 10px;
+}
+.dialog .active {
+  color: black;
+}
+.dialog {
+  padding: 5px;
+}
+.dialog a {
+  text-decoration: none;
+  color: white;
+}
+.messages {
+  padding: 10px;
+}
+.messages .message {
+  padding: 10px;
+}
+.senderBlok {
+  display: flex;
+}
+.senderBlok button {
+  border: 1px solid black;
+  margin-left: 10px;
+
+  background: rgb(167, 201, 167);
+}
